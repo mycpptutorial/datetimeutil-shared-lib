@@ -3,4 +3,4 @@
 
 using namespace std;
 
-string time_to_string(tm* time, string pattern);
+char* time_to_string(tm* time, string pattern);
