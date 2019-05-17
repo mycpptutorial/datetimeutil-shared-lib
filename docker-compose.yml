@@ -1,0 +1,5 @@
+version: '3'
+services:
+  datetimeutil-shared-lib:
+    build: .
+    image: mycpptutorial/datetimeutil-shared-lib:1.0.0
