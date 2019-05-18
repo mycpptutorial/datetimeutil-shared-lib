@@ -8,3 +8,4 @@ RUN mkdir -p /usr/src/mycpptutorial/datetimeutil-shared-lib/build
 WORKDIR /usr/src/mycpptutorial/datetimeutil-shared-lib/build
 RUN cmake ..
 RUN make
+RUN make install
